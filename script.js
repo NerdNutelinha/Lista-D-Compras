@@ -1,4 +1,3 @@
-javascript
 console.log("LISTA BAIXADA COM SUCESSO");
 
 const valores = document.querySelectorAll('input[type="number"]');
