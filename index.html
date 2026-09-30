@@ -1,0 +1,232 @@
+<html>
+<head>
+ <title> Lista de Compras </title>
+
+    <style>
+        body {
+            font-family: Times New Rowan, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        th {
+            background: #ddd;
+        }
+
+        .categoria {
+            background: #444;
+            color: white;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        input[type="number"] {
+            width: 100px;
+            padding: 5px;
+        }
+
+        .total {
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Lista de Compras</h1>
+
+        <table>
+            <tr>
+                <th> Itens </th>
+                <th> Comprar </th>
+                <th> Valor Previsto </th>
+            </tr>
+          
+            <tr>
+
+            <td colspan="3" class="categoria"> Produtos & Alimentos Básicos </td></tr>
+            <tr><td> Arroz </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Feijão </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Grão-de-bico </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Lentilha </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Ervilha seca </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Sal refinado / grosso / marinho </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Açúcar / adoçante </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Óleo vegetal </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Azeite de oliva </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Vinagre </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Farinha de trigo </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Farinha de mandioca / Farofa </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Fubá / Milharina / Tapioca </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Macarrão </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td><tr>
+            <tr><td> Extrato / Molho de tomate </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Milho de pipoca </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Azeitona, milho e ervilha em conserva </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Atum e sardinha em lata </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Leite UHT / Leite em pó </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Café </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Chás diversos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Hortifrúti </td></tr>
+            <tr><td> Batata </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Cebola e alho </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Tomate </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Cenoura </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Chuchu / Abobrinha / Berinjela </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Mandioca / Aipim </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Alface / Rúcula / Espinafre / Couve </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Cheiro-verde </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Bananas </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Maçã e pera </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Mamão </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Laranja e limão </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Ovos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Proteínas & Frios </td></tr>
+            <tr><td> Frango </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Carne bovina </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Carne suína </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Peixes e frutos do mar </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Ovos (cartela) </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Queijos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Presunto / Peito de peru </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Requeijão / Cream cheese </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Manteiga / Margarina </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Iogurte </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Fitness & Nutrição Esportiva </td></tr>
+            <tr><td> Whey protein </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Creatina </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Pré-treino </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Glutamina / BCAA </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Barras de proteína </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Pasta de amendoim </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Aveia </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Sementes </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Granola </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Mel / Melaço </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Pão integral </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Água de coco </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Padaria, Lanches & Matinais </td></tr>
+            <tr><td> Pão de forma tradicional </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Pão francês / Pão de queijo </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Torradas e biscoitos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Cereais matinais </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Achocolatado / Cacau 100% </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Geléia de frutas </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Creme de avelã </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Higiene Pessoal & Cuidados Diários </td></tr>
+            <tr><td> Sabonete </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Shampoo e condicionador </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Creme / Máscara capilar </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Creme para pentear </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Escova e fio dental </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Creme dental / Enxaguante </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Desodorante </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Lâmina de barbear / depilar </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Creme / Espuma de barbear </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Cotonetes </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Algodão </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Papel higiênico </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Lenços umedecidos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Hidratante </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Protetor solar </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Beleza, Maquiagem & Cuidados Femininos </td></tr>
+            <tr><td> Absorventes </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Rímel </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Base / Corretivo / Pó </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Batom / Lip balm / Gloss </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Delineador / Lápis de olho </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Esmalte / Óleo secante </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Acetona / Removedor </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Lixa / Alicate </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Pincéis / Esponjas </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Demaquilante / Água micelar </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Cera / Folhas depilatórias </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Limpeza da Casa & Lavanderia </td></tr>
+            <tr><td> Detergente </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Esponja / Palha de aço </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Sabão em pó / líquido </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Amaciante </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Água sanitária / Cloro </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Desinfetante </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Limpador multiuso </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Limpa-vidros </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Lustra-móveis </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Álcool 70% </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Sacos de lixo </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Papel toalha / Guardanapos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Filme plástico / Papel alumínio </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Luvas de limpeza </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Panos de limpeza </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+            <tr><td colspan="3" class="categoria"> Farmácia, Primeiros Socorros & Utilidades </td></tr>
+            <tr><td> Analgésicos / Antitérmicos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Anti-inflamatórios </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Antialérgicos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Antiácidos / Digestivos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Relaxante muscular </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Band-Aid / Curativos </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Esparadrapo / Gaze </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Álcool 70% / Antisséptico </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Soro fisiológico </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Antitérmico infantil </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Repelente </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Fósforos / Acendedor </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+            <tr><td> Lâmpadas de emergência / Pilhas </td> <td> <input type="checkbox"> </td> <td> <input type="number"> </td></tr>
+
+        </table>
+
+        <div class="total">
+            Total previsto: R$ <span id="total"> 0,00 </span>
+        </div>
+    </div>
+
+    <script>
+        const valores = document.querySelectorAll('[input type="number"]');
+        const total = document.getElementById('total');
+
+        valores.forEach(input => {
+            input.addEventListener('input', calcularTotal);
+        });
+
+        function calcularTotal() {
+            let soma = 0;
+
+            valores.forEach(input => {
+                soma += Number(input.value) || 0;
+            });
+
+            total.textContent = soma.toLocaleString('pt-BR', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+        }
+    </script>
+
+</body>
+</html>
