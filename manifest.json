@@ -1,0 +1,22 @@
+{
+    "name": "Lista de Compras",
+    "short_name": "Compras",
+    "description": "Lista de compras prática e organizada.",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2e7d32",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "imagens/logo-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "imagens/logo-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
