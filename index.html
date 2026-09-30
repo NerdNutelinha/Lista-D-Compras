@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Minha Lista de Compras</title>
+   
+    <link rel="manifest" href="manifest.json">
+
+<meta name="theme-color" content="#2e7d32">
+
+<link rel="apple-touch-icon" href="imagens/logo-192.png">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -1597,6 +1603,20 @@
 
     <script src="script.js"></script>
 
+    <script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("./service-worker.js")
+                .then(() => {
+                    console.log("Aplicativo instalado com sucesso.");
+                })
+                .catch(erro => {
+                    console.error("Erro ao registrar o aplicativo:", erro);
+                });
+        });
+    }
+</script>
+    
 </body>
 
 </html>
